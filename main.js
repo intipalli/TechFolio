@@ -38,6 +38,7 @@
         });
     }, { offset: '80%' });
 
+
     var portfolioIsotope = $('.portfolio-container').isotope({
         itemSelector: '.portfolio-item',
         layoutMode: 'fitRows'
