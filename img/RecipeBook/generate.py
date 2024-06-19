@@ -1,17 +1,17 @@
 import os
 
 # Path to your directory containing images
-img_dir = 'img/Taskify/'
+img_dir = 'img/RecipeBook/'
 
 # Function to generate HTML template for each image file
 def generate_html_template(filename):
     img_path = os.path.join(img_dir, filename)
     img_name, img_ext = os.path.splitext(filename)
     portfolio_text = img_name.replace('-', ' ').title()  # Example transformation
-    data_caption = img_name.title()  # Example transformation
+    data_caption = img_name.replace('-', ' ').title()  # Example transformation
     
     template = f'''
-    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item pm wow fadeInUp" data-wow-delay="0.2s">
+    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item rb wow fadeInUp" data-wow-delay="0.2s">
         <div class="portfolio-wrap">
             <div class="portfolio-img">
                 <img src="{img_path}" alt="{img_name} Image"
