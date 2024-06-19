@@ -50,5 +50,25 @@
         portfolioIsotope.isotope({ filter: $(this).data('filter') });
     });
 
+    $('.clickable-image').on('click', function() {
+        var imgSrc = $(this).data('img-src');
+        var caption = $(this).data('caption');
+        $('#modalImage').attr('src', imgSrc);
+        $('#modalCaption').text(caption);
+        $('#imageModalLabel').text(caption);
+    });
+
+
 })(jQuery);
+
+$(document).ready(function() {
+    $('.clickable-image').on('click', function() {
+        var imgSrc = $(this).data('img-src');
+        var caption = $(this).data('caption');
+        $('#modalImage').attr('src', imgSrc);
+        $('#modalCaption').text(caption);
+        $('#imageModalLabel').text(caption);
+    });
+});
+
 
