@@ -801,8 +801,9 @@ a:focus {
     font-size: 18px;
     font-weight: 600;
     margin: 0 0 0 15px;
-    white-space: nowrap;
-    overflow: hidden;
+    white-space: normal;
+    overflow: visible;
+    padding: 10px;
 }
 
 .portfolio .portfolio-text a.btn {
