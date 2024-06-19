@@ -1,7 +1,7 @@
 import os
 
 # Path to your directory containing images
-img_dir = 'img/RecipeBook/'
+img_dir = 'img/CinemaTech/'
 
 # Function to generate HTML template for each image file
 def generate_html_template(filename):
@@ -11,7 +11,7 @@ def generate_html_template(filename):
     data_caption = img_name.replace('-', ' ').title()  # Example transformation
     
     template = f'''
-    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item rb wow fadeInUp" data-wow-delay="0.2s">
+    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item ct wow fadeInUp" data-wow-delay="0.2s">
         <div class="portfolio-wrap">
             <div class="portfolio-img">
                 <img src="{img_path}" alt="{img_name} Image"
