@@ -787,23 +787,36 @@ a:focus {
 
 .portfolio .portfolio-text {
     position: relative;
-    height: 60px;
     width: calc(100% - 30px);
     margin: -30px 15px 30px 15px;
     display: flex;
     align-items: center;
     background: #ffffff;
     box-shadow: 0 0 15px rgba(0, 0, 0, .12);
+    padding: 10px; 
 }
 
 .portfolio .portfolio-text h3 {
-    width: calc(100% - 70px);
+    width: 100%;
     font-size: 18px;
     font-weight: 600;
-    margin: 0 0 0 15px;
+    margin: 0;
     white-space: normal;
     overflow: visible;
-    padding: 10px;
+    padding: 0; 
+}
+
+@media (max-width: 768px) {
+    .portfolio .portfolio-text {
+        margin: -20px 10px 20px 10px; 
+        padding: 5px; 
+    }
+
+    .portfolio .portfolio-text h3 {
+        font-size: 16px; 
+        margin: 0; 
+        padding: 0; 
+    }
 }
 
 .portfolio .portfolio-text a.btn {
