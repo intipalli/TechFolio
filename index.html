@@ -31,8 +31,8 @@
                 <div class="navbar-nav ml-auto">
                     <a href="#home" class="nav-item nav-link active">Home</a>
                     <a href="#about" class="nav-item nav-link">About</a>
-                    <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
                     <a href="#experience" class="nav-item nav-link">Experience</a>
+                    <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
                     <a href="#service" class="nav-item nav-link">Services</a>
                     <a href="#education" class="nav-item nav-link">Education</a>
                     <a href="#certificate" class="nav-item nav-link">Certifications</a>
@@ -138,6 +138,107 @@
             </div>
         </div>
     </div>
+    <br>
+    <div class="experience" id="experience">
+        <div class="container">
+            <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                <p>My Resume</p>
+                <h2>Work Experience</h2>
+            </header>
+            <div class="timeline">
+                <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                    <div class="timeline-text">
+                        <div class="timeline-date">Aug. 2023 - May. 2024</div>
+                        <h2>Full Stack Developer</h2>
+                        <h4>University of Georgia, Athens, GA</h4>
+                        <p>Refined university server infrastructure with a real-time monitoring system using Java,
+                            Apache Kafka, and Amazon OpenSearch, enabling instant alerts and preemptive maintenance.
+                            Achieved a 40% reduction in downtime, ensuring uninterrupted service availability.
+                        </p>
+                        <br>
+                        <p>Migrated legacy applications to a microservices architecture with Spring Cloud, deploying on
+                            Amazon ECS, improving scalability by 30% through efficient management of containerized
+                            workloads.
+                        </p><br>
+                        <p>Deployed Amazon S3 for storing and accessing large research datasets, reducing data retrieval
+                            times by 30% and enabling seamless scalability for academic research and training
+                            applications.</p><br>
+                        <p>Upgraded a notification system using WebSockets and Java, delivering timely updates on events
+                            and deadlines, increasing user engagement by 25%. </p>
+                    </div>
+                </div>
+                <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                    <div class="timeline-text">
+                        <div class="timeline-date">Aug. 2023 - Dec. 2023</div>
+                        <h2>Software Programming Instructor</h2>
+                        <h4>SoC, University of Georgia, Athens, GA</h4>
+                        <p>Instructed 50+ students in Java application development, emphasizing OOP principles and core
+                            Java concepts, achieving a 40% improvement in understanding software architecture and design
+                            patterns.</p>
+                        <br>
+                        <p>Led comprehensive code reviews and debugging sessions for 100+ Java programming projects,
+                            improving coding standards by 25%.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                    <div class="timeline-text">
+                        <div class="timeline-date">May 2023 - Aug. 2023</div>
+                        <h2>Application Development Intern</h2>
+                        <h4>ADP, Alpharetta, GA</h4>
+                        <p>Customized the user interface of the employee self-service portal using Angular, reducing
+                            support queries by 20%.</p>
+                        <br>
+                        <p>Optimized SQL queries in the employee benefits module by restructuring queries and utilizing
+                            Amazon ElastiCache for caching frequently accessed data, resulting in a 40% reduction in
+                            data retrieval times and improved application performance.
+
+                        </p>
+                        <br>
+                        <p>Performed unit tests with JUnit and conducted integration tests using Mockito to verify
+                            service interactions, ensuring code quality and reducing post-deployment bugs by 15%.
+                        </p><br>
+                        <p>Participated in Agile ceremonies to improve project management efficiency and utilized Git
+                            for source control management.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                    <div class="timeline-text">
+                        <div class="timeline-date">Aug. 2022 - May 2023</div>
+                        <h2>Full Stack Developer</h2>
+                        <h4>UGA Auxiliary Services, Athens, GA</h4>
+                        <p>Transformed the university's housing portal to React.js and integrated a new payment gateway
+                            using .NET and Stripe API, improving user experience and reducing payment failure rate by
+                            30%.</p><br>
+                        <p>Incorporated Bootstrap's responsive design into the university’s event management system,
+                            ensuring accessibility across all devices and increasing event participation by 25%.</p><br>
+                        <p>Automated data entry processes for the university’s bookstore using Python scripts, reducing
+                            errors and saving 10 hours per week.</p><br>
+
+                    </div>
+                </div>
+                <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                    <div class="timeline-text">
+                        <div class="timeline-date">May 2021 - May 2022</div>
+                        <h2>Software Devolopment Engineer</h2>
+                        <h4>BUDDI AI, Chennai, India</h4>
+                        <p>Revamped the user interface of a medical billing platform using React.js and Redux, reducing
+                            billing task time by 35%.</p><br>
+                        <p>Cultivated a data analytics dashboard for patient medical records with React.js, enhancing
+                            decision-making in patient care by 15%.</p><br>
+                        <p>Developed RESTful APIs with Java and Spring MVC for healthcare applications, improving
+                            interoperability by 30%.</p><br>
+                        <p>Boosted database performance by optimizing indexing using PostgreSQL, decreasing query
+                            response times by 50%.</p><br>
+                        <p>Implemented security measures with Spring Security, JWT, and OAuth2.0 to ensure compliance
+                            with healthcare data protection regulations. </p><br>
+                        <p>Streamlined deployment pipelines with Jenkins
+                            and Docker, reducing deployment time by 15%.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="portfolio" id="portfolio">
         <div class="px-4">
@@ -149,7 +250,7 @@
             <div class="row">
                 <div class="col-12">
                     <ul id="portfolio-filter">
-                        <!-- <li data-filter="*" class="filter-active">All</li> -->
+                        <li data-filter="*" class="filter-active">All</li>
                         <li data-filter=".Taskify">Taskify</li>
                         <li data-filter=".pm">Password Manager</li>
                         <li data-filter=".rb">RecipeBook</li>
@@ -1158,105 +1259,6 @@
         </div>
     </div>
     <br>
-    <div class="experience" id="experience">
-        <div class="container">
-            <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                <p>My Resume</p>
-                <h2>Work Experience</h2>
-            </header>
-            <div class="timeline">
-                <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
-                    <div class="timeline-text">
-                        <div class="timeline-date">Aug. 2023 - May. 2024</div>
-                        <h2>Full Stack Developer</h2>
-                        <h4>University of Georgia, Athens, GA</h4>
-                        <p>Refined university server infrastructure with a real-time monitoring system using Java,
-                            Apache Kafka, and Amazon OpenSearch, enabling instant alerts and preemptive maintenance.
-                            Achieved a 40% reduction in downtime, ensuring uninterrupted service availability.
-                        </p>
-                        <br>
-                        <p>Migrated legacy applications to a microservices architecture with Spring Cloud, deploying on
-                            Amazon ECS, improving scalability by 30% through efficient management of containerized
-                            workloads.
-                        </p><br>
-                        <p>Deployed Amazon S3 for storing and accessing large research datasets, reducing data retrieval
-                            times by 30% and enabling seamless scalability for academic research and training
-                            applications.</p><br>
-                        <p>Upgraded a notification system using WebSockets and Java, delivering timely updates on events
-                            and deadlines, increasing user engagement by 25%. </p>
-                    </div>
-                </div>
-                <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
-                    <div class="timeline-text">
-                        <div class="timeline-date">Aug. 2023 - Dec. 2023</div>
-                        <h2>Software Programming Instructor</h2>
-                        <h4>SoC, University of Georgia, Athens, GA</h4>
-                        <p>Instructed 50+ students in Java application development, emphasizing OOP principles and core
-                            Java concepts, achieving a 40% improvement in understanding software architecture and design
-                            patterns.</p>
-                        <br>
-                        <p>Led comprehensive code reviews and debugging sessions for 100+ Java programming projects,
-                            improving coding standards by 25%.</p>
-                    </div>
-                </div>
-                <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
-                    <div class="timeline-text">
-                        <div class="timeline-date">May 2023 - Aug. 2023</div>
-                        <h2>Application Development Intern</h2>
-                        <h4>ADP, Alpharetta, GA</h4>
-                        <p>Customized the user interface of the employee self-service portal using Angular, reducing
-                            support queries by 20%.</p>
-                        <br>
-                        <p>Optimized SQL queries in the employee benefits module by restructuring queries and utilizing
-                            Amazon ElastiCache for caching frequently accessed data, resulting in a 40% reduction in
-                            data retrieval times and improved application performance.
-
-                        </p>
-                        <br>
-                        <p>Performed unit tests with JUnit and conducted integration tests using Mockito to verify
-                            service interactions, ensuring code quality and reducing post-deployment bugs by 15%.
-                        </p><br>
-                        <p>Participated in Agile ceremonies to improve project management efficiency and utilized Git
-                            for source control management.</p>
-                    </div>
-                </div>
-                <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
-                    <div class="timeline-text">
-                        <div class="timeline-date">Aug. 2022 - May 2023</div>
-                        <h2>Full Stack Developer</h2>
-                        <h4>UGA Auxiliary Services, Athens, GA</h4>
-                        <p>Transformed the university's housing portal to React.js and integrated a new payment gateway
-                            using .NET and Stripe API, improving user experience and reducing payment failure rate by
-                            30%.</p><br>
-                        <p>Incorporated Bootstrap's responsive design into the university’s event management system,
-                            ensuring accessibility across all devices and increasing event participation by 25%.</p><br>
-                        <p>Automated data entry processes for the university’s bookstore using Python scripts, reducing
-                            errors and saving 10 hours per week.</p><br>
-
-                    </div>
-                </div>
-                <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
-                    <div class="timeline-text">
-                        <div class="timeline-date">May 2021 - May 2022</div>
-                        <h2>Software Devolopment Engineer</h2>
-                        <h4>BUDDI AI, Chennai, India</h4>
-                        <p>Revamped the user interface of a medical billing platform using React.js and Redux, reducing
-                            billing task time by 35%.</p><br>
-                        <p>Cultivated a data analytics dashboard for patient medical records with React.js, enhancing
-                            decision-making in patient care by 15%.</p><br>
-                        <p>Developed RESTful APIs with Java and Spring MVC for healthcare applications, improving
-                            interoperability by 30%.</p><br>
-                        <p>Boosted database performance by optimizing indexing using PostgreSQL, decreasing query
-                            response times by 50%.</p><br>
-                        <p>Implemented security measures with Spring Security, JWT, and OAuth2.0 to ensure compliance
-                            with healthcare data protection regulations. Streamlined deployment pipelines with Jenkins
-                            and Docker, reducing deployment time by 15%.</p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="service" id="service">
         <div class="container">
@@ -1268,9 +1270,7 @@
                 <div class="row">
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.0s">
                         <div class="service-item">
-                            <!-- <div class="service-icon">
-                                <i class="fa fa-laptop-code"></i>
-                            </div> -->
+
                             <div class="service-text">
                                 <h3><strong>Full Stack Development</strong></h3>
                                 <p>I specialize in creating dynamic and responsive web applications.</p>
@@ -1282,9 +1282,7 @@
                     </div>
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-item">
-                            <!-- <div class="service-icon">
-                                <i class="fa fa-laptop-code"></i>
-                            </div> -->
+
                             <div class="service-text">
                                 <h3><strong>Amazon Web Services (AWS)</strong> </h3>
                                 <p>IAM | S3 | EC2| RDS | DynamoDB | Route 53 | SNS | CloudWatch | CloudFront | Lambda |
@@ -1296,9 +1294,7 @@
                     </div>
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-item">
-                            <!-- <div class="service-icon">
-                                <i class="fa fa-laptop-code"></i>
-                            </div> -->
+
                             <div class="service-text">
                                 <h3><strong>Mobile Apps Development</strong> </h3>
                                 <p>I develop high-performance mobile applications that are secure and reliable. I create
