@@ -1,6 +1,7 @@
 (function ($) {
     "use strict";
-    //new WOW().init();
+    new WOW().init();
+    //document.getElementsById("projects").style.display = "none";
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
             $('.navbar').addClass('nav-sticky');
@@ -53,9 +54,12 @@
     });
 
     $('#portfolio-filter li').on('click', function () {
+        document.getElementById("projects").style.display = "";
+
         $("#portfolio-filter li").removeClass('filter-active');
         $(this).addClass('filter-active');
         portfolioIsotope.isotope({ filter: $(this).data('filter') });
+
     });
 
 
