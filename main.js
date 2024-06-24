@@ -38,12 +38,6 @@
         });
     }, { offset: '80%' });
 
-
-
-
-})(jQuery);
-
-$(document).ready(function() {
     $('.clickable-image').on('click', function() {
         var imgSrc = $(this).data('img-src');
         var caption = $(this).data('caption');
@@ -63,6 +57,11 @@ $(document).ready(function() {
         $(this).addClass('filter-active');
         portfolioIsotope.isotope({ filter: $(this).data('filter') });
     });
-});
+
+
+
+
+})(jQuery);
+
 
 
