@@ -1,6 +1,6 @@
 (function ($) {
     "use strict";
-    new WOW().init();
+    //new WOW().init();
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
             $('.navbar').addClass('nav-sticky');
